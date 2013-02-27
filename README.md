@@ -3,7 +3,7 @@
 Usage
 =====
 
-Configure a threadsafe [MediasurfaceConfiguration](https://github.com/richdouglasevans/typo/blob/master/src/main/java/tpyo/mediasurface/MediasurfaceConfiguration. java) and use it to instantiate a [MediasurfaceTemplate](https://github.com/richdouglasevans/typo/blob/master/src/main/java/tpyo/mediasurface/MediasurfaceTemplate.java).
+Configure a threadsafe [MediasurfaceConfiguration](https://github.com/richdouglasevans/typo/blob/master/src/main/java/tpyo/mediasurface/MediasurfaceConfiguration.java) and use it to instantiate a [MediasurfaceTemplate](https://github.com/richdouglasevans/typo/blob/master/src/main/java/tpyo/mediasurface/MediasurfaceTemplate.java).
 ````java
 MediasurfaceConfiguration newsSiteConfiguration = new MediasurfaceConfiguration.Builder()
         .serverLocation( "//10.115.40.139:2170" )
