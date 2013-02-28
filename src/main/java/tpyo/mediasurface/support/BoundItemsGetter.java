@@ -202,8 +202,7 @@ public final class BoundItemsGetter
 
         public Builder filteringByItemType( String typeName )
         {
-            this.itemFilter = new ItemFilter( typeName, null, null );
-            return this;
+            return filteringBy( new ItemFilter( typeName, null, null ) );
         }
 
         public Builder filteringByItemType( IType type ) throws Exception
